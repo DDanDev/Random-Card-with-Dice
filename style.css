@@ -18,6 +18,7 @@ body {
 
 .card {
 	width: 350px;
+	max-width: 85vw;
 	/* height: 250px; */
 	/* justify-content: space-evenly; */
 	background-color: hsl(217, 19%, 24%);
