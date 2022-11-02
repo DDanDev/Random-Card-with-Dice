@@ -19,10 +19,8 @@ dice.addEventListener("click", function () {
 
 var update = () => {
 	let newAdviceIndex = Math.floor(Math.random() * advices.length);
-	let newAdviceTitle = advices[newAdviceIndex][0];
-	let newAdviceText = advices[newAdviceIndex][1];
-	adviceTitle.innerHTML = newAdviceTitle;
-	adviceText.innerHTML = newAdviceText;
+	adviceTitle.innerHTML = advices[newAdviceIndex][0];
+	adviceText.innerHTML = advices[newAdviceIndex][1];
 };
 
 update();
