@@ -3,3 +3,5 @@ Just a "card" with an animated dice button that when clicked displays one random
 Try it at:
 
 https://ddandev.github.io/Random-Card-with-Dice/
+
+Using https://api.adviceslip.com/
