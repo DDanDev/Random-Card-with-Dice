@@ -66,5 +66,6 @@ async function fetchAdvice() {
 
 update();
 
-let testerInterval = setInterval(() => update(), animateDuration / 4 + 1);
-clearInterval(testerInterval);
+// testing automatically: (run the interval line on console, clear to stop test)
+// let testerInterval = setInterval(() => update(), animateDuration / 4 + 1);
+// clearInterval(testerInterval);
